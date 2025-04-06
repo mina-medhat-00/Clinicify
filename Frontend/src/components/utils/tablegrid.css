@@ -1,0 +1,37 @@
+.table--grid div[class*="xl:w-1/3"] {
+  width: 100% !important;
+  margin: 0px !important;
+}
+.h--full.table--grid div[class*="xl:w-1/3"] {
+  height: 100% !important;
+}
+.table--grid td > div {
+  margin: 0px !important;
+}
+.table--grid td {
+  border: 0px !important;
+  width: 100%;
+  margin: 0px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+/* @media (min-width: 1536px) {
+  .table--grid.last--item tr:last-child td {
+    width: fit-content;
+  }
+} */
+/* .table--grid tr:nth-child(3n) td {
+  display: block !important;
+} */
+.table--grid .ant-table-tbody {
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.table--grid.no--gap .ant-table-tbody {
+  gap: 0px;
+}
+.table--grid.no--gap .ant-table-tbody td {
+  padding: 5px;
+}

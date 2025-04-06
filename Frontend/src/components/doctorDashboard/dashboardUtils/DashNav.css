@@ -1,0 +1,71 @@
+.nav--items {
+  position: relative;
+}
+.item--line {
+  width: 20%;
+  height: 3px;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  opacity: 0;
+  transition: opacity 0.4s ease-out, left 0.6s 0.4s ease-out;
+}
+.item--line--v {
+  width: 3px;
+  height: 20%;
+  position: absolute;
+  top: 0%;
+  left: 100%;
+  opacity: 0;
+  transition: opacity 0.4s ease-out, top 0.6s 0.4s ease-out;
+}
+.item--1:hover + .item--2 + .item--3 + .item--4 + .item--5 + .item--line {
+  left: 0%;
+  opacity: 1;
+  transition: opacity 0.8s ease-out, left 0.6s ease-out;
+}
+.item--2:hover + .item--3 + .item--4 + .item--5 + .item--line {
+  left: 20%;
+  opacity: 1;
+  transition: opacity 0.8s ease-out, left 0.6s ease-out;
+}
+.item--3:hover + .item--4 + .item--5 + .item--line {
+  left: 40%;
+  opacity: 1;
+  transition: opacity 0.8s ease-out, left 0.6s ease-out;
+}
+.item--4:hover + .item--5 + .item--line {
+  left: 60%;
+  opacity: 1;
+  transition: opacity 0.8s ease-out, left 0.6s ease-out;
+}
+.item--5:hover + .item--line {
+  left: 80%;
+  opacity: 1;
+  transition: opacity 0.8s ease-out, left 0.6s ease-out;
+}
+.item--1:hover + .item--2 + .item--3 + .item--4 + .item--5 + .item--line--v {
+  top: 0%;
+  opacity: 1;
+  transition: opacity 0.8s ease-out, top 0.6s ease-out;
+}
+.item--2:hover + .item--3 + .item--4 + .item--5 + .item--line--v {
+  top: 20%;
+  opacity: 1;
+  transition: opacity 0.8s ease-out, top 0.6s ease-out;
+}
+.item--3:hover + .item--4 + .item--5 + .item--line--v {
+  top: 40%;
+  opacity: 1;
+  transition: opacity 0.8s ease-out, top 0.6s ease-out;
+}
+.item--4:hover + .item--5 + .item--line--v {
+  top: 60%;
+  opacity: 1;
+  transition: opacity 0.8s ease-out, top 0.6s ease-out;
+}
+.item--5:hover + .item--line--v {
+  top: 80%;
+  opacity: 1;
+  transition: opacity 0.8s ease-out, top 0.6s ease-out;
+}

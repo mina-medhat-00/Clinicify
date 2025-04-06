@@ -1,0 +1,14 @@
+export { default as Navbar } from "./navbar/Navbar";
+export { default as HomePage } from "./home/HomePage";
+export { default as Doctors } from "./doctors/Doctors";
+export { default as BookAppointment } from "./bookAppointment/BookAppointment";
+export { default as Feedbacks } from "./feedback/Feedbacks";
+export { default as UserProfile } from "./user/profile/UserProfile";
+export { default as Loader } from "./Loader";
+export { default as Login } from "./sign/login/Login";
+export { default as Signup } from "./sign/signup/Signup";
+export { default as SignBanner } from "./sign/SignBanner";
+export { default as DoctorDashboard } from "./doctorDashboard/DoctorDashboard";
+export { default as Chat } from "./chat/Chat";
+export { default as Posts } from "./posts/Posts";
+export { default as OnlineMeeting } from "./onlineMeeting/OnlineMeeting";

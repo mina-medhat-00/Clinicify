@@ -1,0 +1,19 @@
+.admin--table .ant-table-pagination {
+  justify-content: flex-start !important;
+}
+.users--table .ant-table-content {
+  background-color: rgb(55 65 81);
+  color: white;
+  border-radius: 10px;
+}
+.users--table .ant-table-cell-row-hover {
+  background-color: rgb(75 85 99) !important;
+}
+.reports--table .ant-table-content {
+  background-color: rgb(64, 128, 160);
+  color: white;
+  border-radius: 10px;
+}
+.reports--table .ant-table-cell-row-hover {
+  background-color: rgb(64, 136, 172) !important;
+}
